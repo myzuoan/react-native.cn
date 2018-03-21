@@ -24,7 +24,9 @@ class FlexDirectionBasics extends Component {
     );
   }
 };
-
+//此处注册时会报Uncaught Error: Invariant Violation: Element type is invalid: expected a string (for built-in compon.....错误
+//需要添加 export default FixedDimensionsBasics;
+export default FixedDimensionsBasics;
 AppRegistry.registerComponent('AwesomeProject', () => FlexDirectionBasics);
 ```
 
